@@ -3,11 +3,11 @@
 
 #include<iostream>
 using namespace std;
-class VIJAY // class name
+class jenil // class name
 {
     int a,b,l,s,t,r;
     public :
-    VIJAY()// 1."Square"
+    jenil()// 1."Square"
     {
      cout << "Enter The Value :- " ;
      cin >> l;
@@ -16,7 +16,7 @@ class VIJAY // class name
     
     }
  
-   VIJAY(int l, int a) // 2. "Rectangle"
+   jenil(int l, int a) // 2. "Rectangle"
     {
      cout << "\nEnter The Frist Value :- " ;
      cin >> l;
@@ -27,7 +27,7 @@ class VIJAY // class name
     }
 
 
-    VIJAY(double l,double b)// 3. "TriAngle"
+    jenil(double l,double b)// 3. "TriAngle"
     {
      cout << "\nEnter The Frist Value :- " ;
      cin >> l;
@@ -37,7 +37,7 @@ class VIJAY // class name
      cout << "Area Of TriAngle :- " << t <<"\n" ;
     }
 
-    VIJAY(int a)// 4. "Circle"
+    jenil(int a)// 4. "Circle"
     {
      cout << "\nEnter The Value :- " ;
      cin >> r;   
@@ -45,7 +45,7 @@ class VIJAY // class name
      cout << "Area Of Circle :- " << a <<"\n";
     }
 
-    ~ VIJAY()
+    ~ jenil()
     {
         cout << "........ || DESTRUCTOR CLASS CALL ||........ \n ";
     }
@@ -58,7 +58,7 @@ class VIJAY // class name
 
 int main()
 {
-    VIJAY vd,vd1(10,12),vd2(5.5,7.5),vd3(15);
-    cout << "\n value of is a : " << vd1.get() << "\n";
+    jenil jk,jk1(10,12),jk2(5.5,7.5),jk3(15);
+    cout << "\n value of is a : " << jk1.get() << "\n";
      return 0;
 }
